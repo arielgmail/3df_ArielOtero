@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>Formulario con Validación en JavaScript</title>
+</head>
+<style>
+
+
+</style>
+<body>
+    <h1>Formulario de Contacto</h1>
+    <form id="contactForm" onsubmit="return validateForm()">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+        <label for="text">Apellido/s:</label>
+        <input type="text" id="text" name="text" required>
+        <br><br>
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="consulta">Deje aquí su consulta:</label>
+<textarea id="consulta" name="consulta" rows="4" cols="50" required></textarea>
+<br><br>
+        
+        <button type="submit">Enviar</button>
+    </form>
+    <nav>
+        <ul>
+                            <li><a href="index.html">Volver a Inicio</a></li>
+        </ul>
+    </nav>
+    
+    <div id="mensaje"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b88282;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#apiData {
+    background-color: #b93030;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 0 auto;
+    text-align: center; /* Para centrar el contenido */
+}
+
+/* Estilo del hipervínculo */
+#hipervinculo {
+    display: block; /* Hace que el enlace ocupe todo el ancho del contenedor */
+    color: #fff; /* Color del texto del enlace */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    margin-top: 10px; /* Espacio superior para separarlo del contenido anterior */
+}
+
+#hipervinculo:hover {
+    text-decoration: underline; /* Agrega subrayado al pasar el ratón por encima */
+}
